@@ -31,15 +31,58 @@ These drops in passing percentage for the whole school takes Thomas High School 
 
 ### How does replacing the 9th grade scores affect the following?
 
-  - Math and reading scores by grade:
-        
-  - Scores by school spending
+  **Math and reading scores by grade:**
   
-  - Scores by school size
+  The math and reading score did not change and were not affected. The only different was that Thomas High School 9th grade was replaced with NaN
   
-  - Scores by school type
+  *Updated Math Score*:
+
+<img width="313" alt="2022-06-26 (4)" src="https://user-images.githubusercontent.com/105942622/175821199-97b78977-4484-433b-aa12-2e0b5e1c9133.png">
+
+*Updated Reading Score*:
+
+<img width="300" alt="2022-06-26 (5)" src="https://user-images.githubusercontent.com/105942622/175821230-784ed98c-0942-4f60-8cc2-7060c0556880.png">
+
+  **Scores by school spending:**
+  
+*Original*:
+
+<img width="565" alt="2022-06-26 (7)" src="https://user-images.githubusercontent.com/105942622/175821345-04282b4f-1dc3-453a-b389-6cbadeed70e8.png">
+
+*Updated:
+
+<img width="559" alt="2022-06-26 (6)" src="https://user-images.githubusercontent.com/105942622/175821313-bbbd9f9f-c9c5-4b62-b56b-d43bc6c3f829.png">
+
+  Scores by school spending was not affected by the data change
+  
+  **Scores by school size**
+  
+*Original*:
+
+<img width="511" alt="2022-06-26 (8)" src="https://user-images.githubusercontent.com/105942622/175821400-d51af195-6c79-4c8e-8277-e162fe08c793.png">
+
+*Updated:*
+
+<img width="511" alt="2022-06-26 (9)" src="https://user-images.githubusercontent.com/105942622/175821425-64dc02ea-1284-4315-ae95-5642f280b79f.png">
+
+  Scores by school size was not significantly affected by the data change (< 1% change)
+  
+  **Scores by school type**
+
+*Original*
+
+<img width="481" alt="2022-06-26 (11)" src="https://user-images.githubusercontent.com/105942622/175821510-4bb353b4-9a28-47f6-99ec-b48264d823ca.png">
+
+
+*Updated*
+
+ <img width="496" alt="2022-06-26 (10)" src="https://user-images.githubusercontent.com/105942622/175821489-a24fcf6d-83ee-43ad-b5a2-ab1427bca42b.png">
  
+There is a change in the charter school data because Thomas High School is a charter school. This change was not significant (<1%)
+
 ## Summary
+
+There was no real change to the outcome of the data analysis in regards to district analysis, top school ranking, scores by school size, and score by school type when the data for the 9th grade class was completely omitted. The data was affected when the scores were replaced with the value NaN because the students were counted toward the total student body, thus decreasing the overall average of Thomas High School most drastically but also the school district. 
 
 
 
